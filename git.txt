@@ -1,0 +1,33 @@
+create a folder with repository/project name
+
+lunch git with bash under the project name
+
+run git init to create a local repository, this will create .git folder
+
+. use git remote add origin <link> to add remote repo. the link you need to copy from the clone or download
+. pull files with git pull
+. push your own changes into your central repo with git push
+. git status tells you which files are added to index and are ready to commit
+. git add lets you add files to your index
+. git commit 
+
+it refers to recording snapshots of the repository at a given time
+committed snapshots will never change unless done explicitely
+
+
+Examples: 
+
+$ git remote add origin "https://github.com/Raju82/git-github.git"
+
+Sevita@HP MINGW64 ~/Desktop/Tech/Git-Project (master)
+$ git pull origin master
+remote: Counting objects: 6, done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (6/6), done.
+From https://github.com/Raju82/git-github
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> origin/master
+
+Sevita@HP MINGW64 ~/Desktop/Tech/Git-Project (master)
+
